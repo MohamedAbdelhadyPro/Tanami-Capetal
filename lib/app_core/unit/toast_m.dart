@@ -1,0 +1,24 @@
+import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
+
+class ToastM {
+  static show(String message, {int secont = 2}) {
+    if (message.isEmpty) {
+      return;
+    }
+    Fluttertoast.showToast(
+        msg: message,
+        backgroundColor: Colors.grey[700],
+        timeInSecForIosWeb: secont);
+  }
+
+  static showCenter(String message) {
+    if (message.isEmpty) {
+      return;
+    }
+    Fluttertoast.showToast(
+        msg: message,
+        backgroundColor: Colors.grey[700],
+        gravity: ToastGravity.CENTER);
+  }
+}

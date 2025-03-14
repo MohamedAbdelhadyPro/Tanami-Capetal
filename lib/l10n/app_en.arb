@@ -1,0 +1,39 @@
+{
+  "app_name": "Tanami Capital",
+  "server_error": "We are making some updates to improve your experience. The app will be temporarily unavailable.",
+  "try_again":"Try Again",
+  "select_country":"Select Country",
+  "phone_number":"Phone Number",
+    "bahrain":"Bahrain",
+    "egypt": "Egypt",
+    "saudiArabia": "Saudi Arabia",
+  "qatar": "Qatar",
+  "kuwait": "Kuwait",
+  "uae": "United Arab Emirates",
+  "oman": "Oman",
+  "password": "Password",
+  "login_hint": "Please enter your login details to get started",
+  "password_validation_message": "Invalid password. Please ensure it is at least 8 characters, includes an uppercase, a lowercase, a special character, and a number.",
+  "forgot_password": "Forgot your password?",
+  "register": "Register",
+  "login": "Login",
+  "do_not_have_account": "Don't have an account?",
+  "dashboard": "Dashboard",
+  "market": "Market",
+  "history": "History",
+  "portfolio": "Portfolio",
+  "profile": "Profile",
+  "total_portfolio": "Total Portfolio",
+  "deposit": "Deposit",
+  "your_balance": "Your Balance",
+  "view_all": "View all",
+  "stock_portfolio": "Stock Portfolio",
+  "my_watch_list": "My WatchList",
+  "add_new": "Add new",
+  "logout": "logout",
+  "view_pdf": "View PDF"
+
+
+
+
+}
