@@ -1,22 +1,13 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:tanami_capital_task/app.dart';
+
+import 'features/login_feature/data/repos/login_repo_impl_test.dart'
+    as login_repo_test;
+import 'features/login_feature/domain/usecases/login_use_case_test.dart'
+    as login_use_case_test;
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
-
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
-
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
-
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+  group('login feature', () {
+    login_repo_test.main();
+    login_use_case_test.main();
   });
 }

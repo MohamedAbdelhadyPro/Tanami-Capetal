@@ -42,7 +42,7 @@ class StockPortfolioComponent extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 138.h,
+              height: 148.h,
               child: ListView.separated(
                 itemCount: data?.length ?? 0,
                 padding: EdgeInsets.all(12),
